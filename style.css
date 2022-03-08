@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.container{
+    /* border: 2px solid red; */
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 57%;
+    
+}
+
+
+.container h1{
+    width: 70%;
+    font-size: 50px;
+    border-bottom: 4px solid grey;
+    margin-bottom: 43px;
+    padding: 13px 0 ;
+}
+
+
+.box{
+    /* border: 2px solid green; */
+    width: 100% ;
+    border-bottom: 3px solid grey;
+    margin: 32px 0 ;
+    
+    
+}
+
+.box input{
+    /* to make form input btn transparent */
+    background: none;    
+    color: white;
+    width: 75% ;
+    padding: 5px 10px;
+    font-size: 20px;
+    /* border: 2px solid black; */
+    border: none;
+    outline: none;
+    
+}
+
+
+.box i{
+    padding: 0 12px;
+    width: 30px;
+    text-align: center;
+    /* filter: invert(); */
+    
+}
+
+
+.btn{
+    background: none;
+    border: 2px solid grey;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    margin: 12px 0;
+    padding: 2px;
+    border-radius: 10px;
+    cursor: pointer
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+
+}
+
+.logo{
+
+    display: inline-block;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+   
+    /* border: 2px solid white; */
+    top: 20px;
+    left: 15px;
+
+    color:  white;
+
+    text-align: center;
+}
+
+.logo img{
+    
+    filter: invert();
+    width: 80px;
+}
